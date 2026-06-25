@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0D1014"/><rect x="9" y="9" width="46" height="46" rx="10" fill="none" stroke="#E0A953" stroke-width="2.4"/><text x="32" y="44" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" fill="#E0A953" text-anchor="middle">₫</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" width="64" height="64"><defs>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1C2230"/><stop offset="1" stop-color="#0A0C10"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0D08A"/><stop offset="0.5" stop-color="#9A763A"/><stop offset="1" stop-color="#5C4620"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#F6DDA0"/><stop offset="0.55" stop-color="#E0A953"/><stop offset="1" stop-color="#B07D2E"/></linearGradient>
+  <linearGradient id="goldH" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEAB8"/><stop offset="1" stop-color="#D9A24A"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#E0A953" stop-opacity="0.16"/><stop offset="1" stop-color="#E0A953" stop-opacity="0"/></radialGradient>
+</defs><rect x="6" y="6" width="100" height="100" rx="26" fill="url(#tile)"/><rect x="7.2" y="7.2" width="97.6" height="97.6" rx="25" fill="none" stroke="url(#edge)" stroke-width="1.6"/><rect x="6" y="6" width="100" height="100" rx="26" fill="url(#glow)"/><g transform="translate(6,6)">
+  <rect x="28" y="28" width="44" height="44" rx="9" transform="rotate(45 50 50)" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <rect x="40" y="40" width="20" height="20" rx="4.5" transform="rotate(45 50 50)" fill="url(#goldH)"/>
+</g></svg>
